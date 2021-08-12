@@ -16,9 +16,10 @@ We used python pakcage [Albumentations](https://albumentations.ai/docs/) to prop
 ## CNN Architectures
 We have run the following CNN architectures for seafood classification and the table below shows the training set loss and validation set accuracy after three epochs:
 
-| Column 1       | Column 2     | Column 3     | Column 3     |
+| Metrics     | Alexnet    | VGG-19   | Resnet34    |
 | :------------- | :----------: | -----------: | -----------: |
-|  Cell Contents | More Stuff   | And Again    | And Again    |
-| You Can Also   | Put Pipes In | Like this \| | Like this \| |
+|  Train Loss | 0.45  | 0.18    | 11.3    |
+| Validation Accuracy  | 0.88 | 0.97 \| | 0.98 \| |
+|  Num of Params | 57,040,713 | 139,607,113 \| | 21,797,672 \| |
 
 
