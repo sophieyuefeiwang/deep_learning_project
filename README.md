@@ -16,7 +16,7 @@ We used python package [Albumentations](https://albumentations.ai/docs/) to prop
 ## CNN Architectures
 We have run the following pre-trained CNN architectures (AlexNet, VGG-19, ResNet34) and only fine-tuned the last linear layer for seafood classification and the table below shows the training set loss and validation set accuracy after three epochs on GPU:
 
-|      | AlexNet    | VGG-19   | ResNet34    |
+|      | AlexNet    | VGG19   | ResNet34    |
 | :------------- | :----------: | -----------: | -----------: |
 |  Train Loss | 0.45  | 0.18    | 11.3    |
 | Validation Accuracy  | 0.88 | 0.97  | 0.98  |
