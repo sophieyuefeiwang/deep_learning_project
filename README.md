@@ -10,16 +10,16 @@ We obtained our dataset from Kaggle [here](https://www.kaggle.com/crowww/a-large
 
 
 ## Preprocessing the data
-We used python pakcage [Albumentations](https://albumentations.ai/docs/) to proprocess the image data before feeding them into neural networks. Some of the image augmentation techniques we used includes: random crop, elastic transformation, RGB normalization, center crop. 
+We used python package [Albumentations](https://albumentations.ai/docs/) to proprocess the image data before feeding them into neural networks. Some of the image augmentation techniques we used include: random crop, elastic transformation, RGB normalization, center crop. 
 
 
 ## CNN Architectures
-We have run the following pre-trained CNN architectures (Alexnet, VGG-19, ResNet34) and only fine-tuned the last linear layer for seafood classification and the table below shows the training set loss and validation set accuracy after three epochs on GPU:
+We have run the following pre-trained CNN architectures (AlexNet, VGG-19, ResNet34) and only fine-tuned the last linear layer for seafood classification and the table below shows the training set loss and validation set accuracy after three epochs on GPU:
 
-|      | Alexnet    | VGG-19   | ResNet34    |
+|      | AlexNet    | VGG-19   | ResNet34    |
 | :------------- | :----------: | -----------: | -----------: |
 |  Train Loss | 0.45  | 0.18    | 11.3    |
 | Validation Accuracy  | 0.88 | 0.97  | 0.98  |
 |  Num of Params | 57,040,713 | 139,607,113  | 21,797,672 |
 
-From the summary table above, we can clearly see that ResNet34 is the winner here, with the highest validation accuracy and least amount of parameters (the most efficient architecture)
+From the summary table above, we can clearly see that ResNet34 is the winner here, with the highest validation accuracy and least number of parameters (the most efficient architecture)
