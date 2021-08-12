@@ -18,7 +18,8 @@ We have run the following CNN architectures for seafood classification and the t
 
 | Alexnet | VGG-19 | Resnet34 |
 | :---         |     :---:      |          ---: |
-| git status   | git status     | git status    |
+|number of parameters | Tr   | git status     | git status    |
+| git diff     | git diff       | git diff      |
 | git diff     | git diff       | git diff      |
 
 
