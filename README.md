@@ -27,4 +27,4 @@ From the summary table above, we can clearly see that ResNet34 is the winner her
 
 ## Future work
 1) Try freezing/unfreezing different layers in the pre-trained CNN architectures
-2) Try different learning rate and weight decay 
+2) Try different learning rates and weight decay values
