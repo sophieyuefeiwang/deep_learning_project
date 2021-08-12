@@ -23,3 +23,8 @@ We have run the following pre-trained CNN architectures (AlexNet, VGG-19, ResNet
 |  Num of Params | 57,040,713 | 139,607,113  | 21,797,672 |
 
 From the summary table above, we can clearly see that ResNet34 is the winner here, with the highest validation accuracy and least number of parameters (the most efficient architecture)
+
+
+## Future work
+1) Try freezing/unfreezing different layers in the pre-trained CNN architectures
+2) Try different learning rate and weight decay 
